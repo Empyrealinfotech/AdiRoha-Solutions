@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Sitemap: https://www.empyrealinfotech.com/sitemap.xml
+Disallow: /blogs/tag/web-design

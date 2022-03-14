@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="631.094" height="620" viewBox="0 0 631.094 620">
+  <defs>
+    <filter id="Path_142" x="0" y="20.055" width="631.094" height="553.743" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.192" y1="0.092" x2="0.809" y2="0.875" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#6a11cb"/>
+    </linearGradient>
+    <filter id="Path_143" x="59.398" y="0" width="571.377" height="620" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon" transform="translate(-1117.663 1060) rotate(-90)">
+    <g transform="matrix(0, 1, -1, 0, 1060, 1117.66)" filter="url(#Path_142)">
+      <path id="Path_142-2" data-name="Path 142" d="M216.872,61.3C330.5,285.03,433.743,158.4,433.743,278.172s-97.1,216.872-216.872,216.872S0,397.947,0,278.172,103.248-162.428,216.872,61.3Z" transform="translate(75.05 512.8) rotate(-90)" fill="#fff"/>
+    </g>
+    <g transform="matrix(0, 1, -1, 0, 1060, 1117.66)" filter="url(#Path_143)" style="mix-blend-mode: multiply;isolation: isolate">
+      <path id="Path_143-2" data-name="Path 143" d="M226.524,0C351.629,0,604.586,99.437,453.048,226.524S286.507,451.377,161.4,451.377,0,351.629,0,226.524,101.418,0,226.524,0Z" transform="translate(118.4 559) rotate(-90)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
